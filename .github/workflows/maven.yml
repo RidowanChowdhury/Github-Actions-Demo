@@ -28,4 +28,4 @@ jobs:
         distribution: 'adopt'
         cache: maven
     - name: run with Maven
-      run: mvn spring-boot:run
+      run: mvn clean install
